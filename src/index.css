@@ -47,3 +47,31 @@ code {
   from {opacity: 100%}
   to {opacity: 0%}
 }
+.track{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.track-image{
+  width: 250px;
+  height: 250px;
+}
+.artist-image{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.track-name{
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 250px;
+}
+.track-icon{
+  color: red;
+  background-color: aqua;
+}

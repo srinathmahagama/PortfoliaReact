@@ -3,7 +3,7 @@ import '../App.css';
 import SocialProfiles from './SocialProfiles'
 import profile from '../assets/profile.png'
 import Title from './Titles'
-import Jokes from "./Jokes";
+
 
 function App() {
     return (
@@ -19,8 +19,6 @@ function App() {
             <hr/>
             <hr/>
             <SocialProfiles/>
-            <hr/>
-            <Jokes/>
         </div>
 
     );

@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 
+
 const Joke = ({joke})=>{
     const {setUp,punchLine} = joke;
     return(
@@ -29,7 +30,7 @@ class Jokes extends Component {
     render() {
         const {setup, punchLine} = this.state.joke;
         return(
-            <div>
+            <div className="App">
                 <h2>HighLighted Joke</h2>
                 <Joke joke={this.state.joke}/>
                 <h2>More Jokes</h2>
